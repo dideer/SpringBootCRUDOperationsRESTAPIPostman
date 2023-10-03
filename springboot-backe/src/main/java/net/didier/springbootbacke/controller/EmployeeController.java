@@ -25,7 +25,7 @@ public class EmployeeController {
 
     // build create employee Rest API
 
-    @PostMapping()
+    @PostMapping
 
     public ResponseEntity<Employee> saveEmployee(@RequestBody Employee employee){
 
