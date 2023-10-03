@@ -1,0 +1,13 @@
+package net.didier.springbootbacke;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringbootBackeApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootBackeApplication.class, args);
+	}
+
+}
